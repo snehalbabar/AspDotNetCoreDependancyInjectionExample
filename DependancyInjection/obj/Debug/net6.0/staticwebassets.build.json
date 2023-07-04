@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "C3iDtZjoYFebiAGRd+Knd50BVOwusyb4MwPYhP//psQ=",
+  "Source": "DependancyInjection",
+  "BasePath": "_content/DependancyInjection",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DependancyInjection/wwwroot",
+      "Source": "DependancyInjection",
+      "ContentRoot": "/Users/snehal/Projects/Learning_Projects/DependancyInjection/wwwroot/",
+      "BasePath": "_content/DependancyInjection",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/snehal/Projects/Learning_Projects/DependancyInjection/wwwroot/StyleSheet.css",
+      "SourceId": "DependancyInjection",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/snehal/Projects/Learning_Projects/DependancyInjection/wwwroot/",
+      "BasePath": "_content/DependancyInjection",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/StyleSheet.css"
+    }
+  ]
+}

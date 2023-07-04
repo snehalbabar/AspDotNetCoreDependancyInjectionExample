@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/snehal/Projects/Learning_Projects/DependancyInjection/wwwroot/StyleSheet.css",
+      "PackagePath": "staticwebassets/StyleSheet.css"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.DependancyInjection.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.DependancyInjection.props",
+      "PackagePath": "build\\DependancyInjection.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.DependancyInjection.props",
+      "PackagePath": "buildMultiTargeting\\DependancyInjection.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.DependancyInjection.props",
+      "PackagePath": "buildTransitive\\DependancyInjection.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
