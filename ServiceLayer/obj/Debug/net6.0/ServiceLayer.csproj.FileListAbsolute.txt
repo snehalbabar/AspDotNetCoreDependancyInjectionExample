@@ -1,0 +1,12 @@
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/bin/Debug/net6.0/ServiceLayer.deps.json
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/bin/Debug/net6.0/ServiceLayer.dll
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/bin/Debug/net6.0/ServiceLayer.pdb
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ServiceLayer.csproj.AssemblyReference.cache
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ServiceLayer.AssemblyInfoInputs.cache
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ServiceLayer.AssemblyInfo.cs
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ServiceLayer.csproj.CoreCompileInputs.cache
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ServiceLayer.dll
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/refint/ServiceLayer.dll
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ServiceLayer.pdb
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ref/ServiceLayer.dll
