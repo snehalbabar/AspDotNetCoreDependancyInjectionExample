@@ -30,3 +30,5 @@
 /Users/snehal/Projects/Learning_Projects/DependancyInjection/obj/Debug/net6.0/DependancyInjection.pdb
 /Users/snehal/Projects/Learning_Projects/DependancyInjection/obj/Debug/net6.0/DependancyInjection.genruntimeconfig.cache
 /Users/snehal/Projects/Learning_Projects/DependancyInjection/obj/Debug/net6.0/ref/DependancyInjection.dll
+/Users/snehal/Projects/Learning_Projects/DependancyInjection/bin/Debug/net6.0/ServiceContracts.dll
+/Users/snehal/Projects/Learning_Projects/DependancyInjection/bin/Debug/net6.0/ServiceContracts.pdb

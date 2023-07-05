@@ -1,5 +1,8 @@
-﻿namespace ServiceLayer;
-public class CitiesService
+﻿using ServiceContracts;
+
+namespace ServiceLayer;
+
+public class CitiesService : ICitiesService
 {
     private List<string> _cities;
 

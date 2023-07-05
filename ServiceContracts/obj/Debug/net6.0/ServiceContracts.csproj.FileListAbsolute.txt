@@ -1,0 +1,12 @@
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/bin/Debug/net6.0/ServiceContracts.deps.json
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/bin/Debug/net6.0/ServiceContracts.dll
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/bin/Debug/net6.0/ServiceContracts.pdb
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/obj/Debug/net6.0/ServiceContracts.csproj.AssemblyReference.cache
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/obj/Debug/net6.0/ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/obj/Debug/net6.0/ServiceContracts.AssemblyInfoInputs.cache
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/obj/Debug/net6.0/ServiceContracts.AssemblyInfo.cs
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/obj/Debug/net6.0/ServiceContracts.csproj.CoreCompileInputs.cache
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/obj/Debug/net6.0/ServiceContracts.dll
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/obj/Debug/net6.0/refint/ServiceContracts.dll
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/obj/Debug/net6.0/ServiceContracts.pdb
+/Users/snehal/Projects/Learning_Projects/ServiceContracts/obj/Debug/net6.0/ref/ServiceContracts.dll

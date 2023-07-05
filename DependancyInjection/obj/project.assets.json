@@ -2,9 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "ServiceContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ServiceContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceContracts.dll": {}
+        }
+      },
       "ServiceLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ServiceContracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ServiceLayer.dll": {}
         },
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "ServiceContracts/1.0.0": {
+      "type": "project",
+      "path": "../ServiceContracts/ServiceContracts.csproj",
+      "msbuildProject": "../ServiceContracts/ServiceContracts.csproj"
+    },
     "ServiceLayer/1.0.0": {
       "type": "project",
       "path": "../ServiceLayer/ServiceLayer.csproj",
@@ -23,6 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ServiceContracts >= 1.0.0",
       "ServiceLayer >= 1.0.0"
     ]
   },
@@ -53,6 +72,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "/Users/snehal/Projects/Learning_Projects/ServiceContracts/ServiceContracts.csproj": {
+              "projectPath": "/Users/snehal/Projects/Learning_Projects/ServiceContracts/ServiceContracts.csproj"
+            },
             "/Users/snehal/Projects/Learning_Projects/ServiceLayer/ServiceLayer.csproj": {
               "projectPath": "/Users/snehal/Projects/Learning_Projects/ServiceLayer/ServiceLayer.csproj"
             }

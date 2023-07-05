@@ -10,3 +10,6 @@
 /Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/refint/ServiceLayer.dll
 /Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ServiceLayer.pdb
 /Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ref/ServiceLayer.dll
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/bin/Debug/net6.0/ServiceContracts.dll
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/bin/Debug/net6.0/ServiceContracts.pdb
+/Users/snehal/Projects/Learning_Projects/ServiceLayer/obj/Debug/net6.0/ServiceLayer.csproj.CopyComplete
