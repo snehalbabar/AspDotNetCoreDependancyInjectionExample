@@ -2,12 +2,24 @@
 
 namespace ServiceLayer;
 
-public class CitiesService : ICitiesService
+public class CitiesService : ICitiesService , IDisposable
 {
     private List<string> _cities;
 
+
+    private Guid _serviceInstaceId;
+
+    public Guid ServiceInstaceId {
+        get {
+
+            return _serviceInstaceId;
+        }
+    }
+
     public CitiesService()
     {
+        
+        _serviceInstaceId = Guid.NewGuid();
         _cities = new List<string>()
         {
             "London",
@@ -16,12 +28,18 @@ public class CitiesService : ICitiesService
             "Pune",
             "Dallas"
         };
+
     }
 
     public List<string> GetCities()
     {
         return _cities;
 
+    }
+
+    public void Dispose()
+    {
+      
     }
 
 }

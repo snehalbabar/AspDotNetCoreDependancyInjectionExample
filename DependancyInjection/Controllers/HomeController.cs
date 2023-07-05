@@ -14,24 +14,46 @@ namespace DependancyInjection.Controllers
     {
         // private readonly CitiesService _citiesService;
 
-        private readonly ICitiesService _citiesService;
+        private readonly ICitiesService _citiesService1;
+        private readonly ICitiesService _citiesService2;
+        private readonly ICitiesService _citiesService3;
+
+        private readonly IServiceScopeFactory _serviceScopeFactory;
 
 
-        public HomeController(ICitiesService citiesService)
+        public HomeController(ICitiesService citiesService1, ICitiesService citiesService2, ICitiesService citiesService3,
+            IServiceScopeFactory serviceScopeFactory)
         {
             //create object of citiesServices class
             //_citiesService = new CitiesService();
 
 
             //DI
-            _citiesService = citiesService;
+            _citiesService1 = citiesService1;
+            _citiesService2 = citiesService2;
+            _citiesService3 = citiesService3;
+            _serviceScopeFactory = serviceScopeFactory;
 
         }
 
         [Route("/")]
         public IActionResult Index()
         {
-             List<string> cities =  _citiesService.GetCities();
+             List<string> cities =  _citiesService1.GetCities();
+             ViewBag.InsatanceId_CitiesServivces1 = _citiesService1.ServiceInstaceId;
+             ViewBag.InsatanceId_CitiesServivces2 = _citiesService2.ServiceInstaceId;
+             ViewBag.InsatanceId_CitiesServivces3 = _citiesService3.ServiceInstaceId;
+
+            using (IServiceScope scope = _serviceScopeFactory.CreateScope())
+            {
+                //inject service
+                ICitiesService citiesService =
+                scope.ServiceProvider.GetRequiredService<ICitiesService>();
+                //db work
+                ViewBag.InsatanceId_CitiesServivces_child_scope = citiesService.ServiceInstaceId;
+            }//end of the scope; it will call dispose()
+
+
             return View(cities);
         }
     }
